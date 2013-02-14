@@ -1,3 +1,28 @@
+########################## Jon Custom ##########################
+
+#browsers
+alias chrome="open -a /Applications/Google\ Chrome.app/"
+alias canary="open -a /Applications/Google\ Chrome\ Canary.app/"
+
+#goto shortcuts
+alias play="cd /library/webserver/playground"
+alias dev="cd /library/webserver2/"
+
+# Copy my public key to my clipboard
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+echo 'source "`brew --prefix grc`/etc/grc.bashrc"' >> ~/.bash_profile
+
+#coldfusion
+alias cfstart="/Applications/ColdFusion10/cfusion/bin/coldfusion start"
+alias cfstop="/Applications/ColdFusion10/cfusion/bin/coldfusion stop"
+alias cfide="open -a /Applications/Google\ Chrome\ Canary.app/ http://localhost/CFIDE/administrator/index.cfm"
+
+#apache
+alias vhosts="subl /private/etc/apache2/extra/httpd-vhosts.conf"
+alias hosts="subl /private/etc/hosts"
+
+################################################################
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
