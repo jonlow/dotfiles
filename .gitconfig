@@ -1,6 +1,8 @@
 [alias]
 	# View the SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph
+	# Same as above but all log files and more info
+	lol = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --graph --decorate
 	# View the current working tree status using the short format
 	s = status -s
 	# Show the diff between the latest commit and the current state
@@ -36,6 +38,7 @@
 	attributesfile = ~/.gitattributes
 	# Treat spaces before tabs, lines that are indented with 8 or more spaces, and all kinds of trailing whitespace as an error
 	whitespace = space-before-tab,indent-with-non-tab,trailing-space
+	editor = /usr/bin/vim
 
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
@@ -56,6 +59,12 @@
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	tool = kdiff3
+[mergetool "kdiff3"]
+    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+    trustExitCode = false
+[mergetool]
+    keepBackup = false
 
 # Use `origin` as the default remote on the `master` branch in all cases
 [branch "master"]
@@ -77,4 +86,4 @@
 	insteadOf = "gist:"
 
 [push]
-	default = simple
+	default = tracking
