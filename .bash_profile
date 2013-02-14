@@ -1,5 +1,16 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
+# MacPorts Installer addition on 2012-09-05_at_09:37:46: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Sencha CMD
+export PATH=/Users/jlow/bin/Sencha/Cmd/3.0.0.250:$PATH
+# PhantomJS
+export PATH=/Users/jlow/bin/phantomjs-1.8.1-macosx/bin:$PATH
+# Air SDK
+export PATH=$PATH:"/Library/WebServer/adobe air/sdk/2.7/bin"
+
+# Do I need this?
+# export SENCHA_CMD_3_0_0="/Users/jlow/bin/Sencha/Cmd/3.0.0.250"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
