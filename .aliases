@@ -7,6 +7,7 @@ alias canary="open -a /Applications/Google\ Chrome\ Canary.app/"
 #goto shortcuts
 alias play="cd /library/webserver/playground"
 alias dev="cd /library/webserver2/"
+alias dot="cd ~/dotfiles"
 
 # Copy my public key to my clipboard
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
