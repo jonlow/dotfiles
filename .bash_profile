@@ -9,6 +9,9 @@ export PATH=/Users/jlow/bin/phantomjs-1.8.1-macosx/bin:$PATH
 # Air SDK
 export PATH=$PATH:"/Library/WebServer/adobe air/sdk/2.7/bin"
 
+#Add Z to bash
+. ~/code/z/z.sh
+
 # Do I need this?
 # export SENCHA_CMD_3_0_0="/Users/jlow/bin/Sencha/Cmd/3.0.0.250"
 
