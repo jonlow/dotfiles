@@ -1,4 +1,4 @@
-[user]
+	[user]
 	name = Jon Low
 	email = jon@thememphisagency.com
 	
@@ -21,6 +21,8 @@
 	ca = !git add -A && git commit -av
 	# Switch to a branch, creating it if necessary
 	go = checkout -B
+	# List files in commit SHA
+	list = diff-tree --no-commit-id --name-only -r
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 	branches = branch -a
