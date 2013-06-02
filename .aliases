@@ -46,6 +46,9 @@ alias s="subl ."
 alias o="open"
 alias oo="open ."
 
+#copy directory path to clipboard
+alias getpath='echo -n $PWD|pbcopy|echo "current path copied to clipboard"'
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
