@@ -19,8 +19,8 @@ alias cfstop="/Applications/ColdFusion10/cfusion/bin/coldfusion stop"
 alias cfide="open -a /Applications/Google\ Chrome\ Canary.app/ http://localhost/CFIDE/administrator/index.cfm"
 
 #apache
-alias vhosts="subl /private/etc/apache2/extra/httpd-vhosts.conf"
-alias hosts="subl /private/etc/hosts"
+alias vhosts="atom /private/etc/apache2/extra/httpd-vhosts.conf"
+alias hosts="atom /private/etc/hosts"
 
 ################################################################
 
@@ -33,6 +33,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
+alias a="atom ."
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
