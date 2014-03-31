@@ -34,7 +34,7 @@ alias -- -="cd -"
 
 # Shortcuts
 alias a="atom ."
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Users/jlow/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
