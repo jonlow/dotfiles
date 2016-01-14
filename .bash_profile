@@ -9,6 +9,8 @@ export PATH=/Users/jlow/bin/phantomjs-1.8.1-macosx/bin:$PATH
 # Air SDK
 export PATH=$PATH:"/Library/WebServer/adobe air/sdk/2.7/bin"
 
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH
+
 #Add Z to bash
 . ~/code/z/z.sh
 
