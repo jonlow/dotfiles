@@ -1,5 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
+
+export PATH=$PATH:~/bin
 # MacPorts Installer addition on 2012-09-05_at_09:37:46: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Sencha CMD
@@ -10,6 +12,9 @@ export PATH=/Users/jlow/bin/phantomjs-1.8.1-macosx/bin:$PATH
 export PATH=$PATH:"/Library/WebServer/adobe air/sdk/2.7/bin"
 
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH
+
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export EDITOR='subl -w'
 
 #Add Z to bash
 . ~/code/z/z.sh
